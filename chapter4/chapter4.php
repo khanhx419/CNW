@@ -72,7 +72,6 @@ while ($row = $stmt_select->fetch(PDO::FETCH_ASSOC)) {
 // (htmlspecialchars là để bảo mật, tránh lỗi XSS - sẽ học ở Chương 9)
 // Đóng vòng lặp
 echo "<tr>";
-        // Luôn dùng htmlspecialchars để chống lỗi hiển thị và bảo mật (XSS)
         echo "<td>" . htmlspecialchars($row['id']) . "</td>";
         echo "<td>" . htmlspecialchars($row['ten_sinh_vien']) . "</td>";
         echo "<td>" . htmlspecialchars($row['email']) . "</td>";
