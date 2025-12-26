@@ -6,33 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ $title ?? 'Website Của Tôi' }}</title>
     <style>
-        body {
-            font-family: sans-serif;
-        }
+    body {
+        font-family: sans-serif;
+    }
 
-        .container {
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+    }
 
-        header,
-        footer {
-            background-color: #f4f4f4;
-            padding: 10px;
-            text-align: center;
-        }
+    header,
+    footer {
+        background-color: #f4f4f4;
+        padding: 10px;
+        text-align: center;
+    }
 
-        nav {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-        }
+    nav {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+    }
 
-        nav a {
-            color: white;
-            margin: 0 10px;
-        }
+    nav a {
+        color: white;
+        margin: 0 10px;
+    }
     </style>
 </head>
 
@@ -40,7 +40,7 @@
 
 
     <header>
-        <h1>Trang Web CSE485 - Chffơng 7</h1>
+        <h1>Trang Web CSE485 - Chương 7</h1>
     </header>
 
 
@@ -55,10 +55,6 @@
     </div>
 
 
-    <footer>
-
-        <p>&copy; 2025 - Khoa CNTT - Trffờng Đại học Thủy Lợi</p>
-    </footer>
 
 
 </body>
